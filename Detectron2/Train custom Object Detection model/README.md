@@ -1,19 +1,26 @@
-# Build an Object Detector in Python using SSD MobileNet v3
+# Train Your Own Object Detector with Detectron2
 <p align="center">
-  <img width="800" src="Object Detection using    SSD  MobileNet-V3.png" "image">
+  <img width="800" src="Detectron2 -How to train your custom dataset using Detectron2.png" "image">
 </p>
 
 ##
 <br/><br/> 
 
 <font size= "4" >
-This video dives into how you can implement real-time object detection using the powerful and lightweight SSD MobileNet v3 model! We'll walk you through the code step-by-step, showing you how to detect objects in both images and video streams using Python and OpenCV.
+Want to train your own object detection model? In this video, you'll learn how to use Detectron2, a powerful deep learning framework, to build a custom object detector in Python. We'll walk you through the entire process, from setting up your dataset and training your model to making predictions on new images.
 
-No prior experience needed! This tutorial is perfect for beginners who want to get started with object detection. We'll provide all the code you need, along with explanations to make the process clear and engaging.
+Even if you're new to deep learning, this beginner-friendly tutorial will guide you step-by-step. Here's what you'll learn:
+
+
+* Installing and setting up Detectron2
+* Preparing your custom object detection dataset (annotations & images)
+* Training your model with Detectron2 (including configuration options)
+* Using your trained model for object detection on new images
+* Visualizing the results with bounding boxes and class labels
 
 <br/>
 
-You can find the link for the [tutorial](https://youtu.be/e-tfaEK9sFs) here. 
+You can find the link for the [tutorial]https://youtu.be/MhOWCbwhaYo) here. 
 
 You can find more cool Object Detection projects and tutorials in this  [playlist](https://www.youtube.com/playlist?list=PLdkryDe59y4bXa-1wOEAF4KljIMamhWd0)
 
@@ -48,7 +55,6 @@ If you have any suggestions about papers, feel free to mail me :)
 - [🐙 Facebookl](https://www.facebook.com/groups/3080601358933585)
 - [🖥️ Email](mailto:feitgemel@gmail.com)
 - [🐦 Twitter](https://twitter.com/eran_feit )
-- [😸 GitHub](https://github.com/feitgemel)
 - [📸 Instagram](https://www.instagram.com/eran_feit/)
 - [🤝 Fiverr ](https://www.fiverr.com/s/mB3Pbb)
 - [📝 Medium ](https://medium.com/@feitgemel)

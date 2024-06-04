@@ -1,19 +1,19 @@
-# Build an Object Detector in Python using SSD MobileNet v3
+# Object Detection with Detectron2
 <p align="center">
-  <img width="800" src="Object Detection using    SSD  MobileNet-V3.png" "image">
+  <img width="800" src="Detectron2 Simple Object detection.png" "image">
 </p>
 
 ##
 <br/><br/> 
 
 <font size= "4" >
-This video dives into how you can implement real-time object detection using the powerful and lightweight SSD MobileNet v3 model! We'll walk you through the code step-by-step, showing you how to detect objects in both images and video streams using Python and OpenCV.
+This is a simple detectron2 tutorial for setting up detectron2, and running it on images . 
+Detectron2 is FacebookAI's framework for object detection, instance segmentation, and keypoints detection written in PyTorch. 
 
-No prior experience needed! This tutorial is perfect for beginners who want to get started with object detection. We'll provide all the code you need, along with explanations to make the process clear and engaging.
-
+Detectron2 makes it convenient to run pre-trained models or train the models from scratch. 
 <br/>
 
-You can find the link for the [tutorial](https://youtu.be/e-tfaEK9sFs) here. 
+You can find the link for the [tutorial](https://youtu.be/VKiYGmkmQMY) here. 
 
 You can find more cool Object Detection projects and tutorials in this  [playlist](https://www.youtube.com/playlist?list=PLdkryDe59y4bXa-1wOEAF4KljIMamhWd0)
 
@@ -48,7 +48,6 @@ If you have any suggestions about papers, feel free to mail me :)
 - [🐙 Facebookl](https://www.facebook.com/groups/3080601358933585)
 - [🖥️ Email](mailto:feitgemel@gmail.com)
 - [🐦 Twitter](https://twitter.com/eran_feit )
-- [😸 GitHub](https://github.com/feitgemel)
 - [📸 Instagram](https://www.instagram.com/eran_feit/)
 - [🤝 Fiverr ](https://www.fiverr.com/s/mB3Pbb)
 - [📝 Medium ](https://medium.com/@feitgemel)
