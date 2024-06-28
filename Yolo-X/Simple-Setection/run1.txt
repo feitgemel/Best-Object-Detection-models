@@ -1,0 +1,25 @@
+# Simple object detection (The Coco dataset )
+
+
+# copy the boat.jpg image to the assets folder 
+# test the model with a simple object detection in an image  
+
+--conf => 0.3 get obly object with value of prediction evaluation over 30% . (The number is in the image)
+# no max supprestion
+--nms 0.65 -> if for the same object we have 3 predictions (boxes) , it will choose the best ones if they are similar
+
+python tools/demo.py image -n yolox-x -c weights/yolox_x.pth --path assets/boat.jpg --conf 0.3 --nms 0.65 --tsize 640 --save_result --device gpu
+
+#the result will be in folder /YOLOX_outputs/yolox_x
+
+# In our example , the model will find the boat and persons
+
+
+
+
+
+
+
+
+
+

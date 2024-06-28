@@ -1,0 +1,46 @@
+https://github.com/Megvii-BaseDetection/YOLOX/
+
+Already trained on the Coco Dataset : 80 objects
+Here are the class names of COCO : https://gist.github.com/AruniRC/7b3dadd004da04c80198557db5da4bda
+
+
+Sandard Models :
+
+List of of Yolox models :
+YOLOX-s   -> best performence 
+YOLOX-m
+YOLOX-l
+YOLOX-x   -> Best preformence !!! , but with a lot of parameters (time !!)
+YOLOX-Darknet53	
+
+Light Models :
+YOLOX-Nano
+YOLOX-Tiny
+
+Youshould run it on WSL !!!
+Open PowerShell or Windows Command Prompt as (administrator !!! )mode by right-clicking and 
+selecting "Run as administrator"
+
+
+
+conda create -n YoloX python=3.7
+conda activate YoloX
+
+# choose a folder to install the Yolox library (For example under CoolPython folder )
+
+
+git clone https://github.com/Megvii-BaseDetection/YOLOX/
+cd YOLOX
+
+pip3 install -U pip && pip3 install -r requirements.txt
+pip3 install -v -e .  # or  python3 setup.py develop
+pip3 install wandb
+
+
+#Download the Yolox model weights ro weights folder  :
+mkdir weights
+wget -P weights https://github.com/Megvii-BaseDetection/YOLOX/releases/download/0.1.1rc0/yolox_x.pth
+
+
+
+
