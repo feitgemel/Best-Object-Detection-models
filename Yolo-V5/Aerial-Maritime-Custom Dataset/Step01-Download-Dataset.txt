@@ -1,0 +1,41 @@
+Aerial Maritime Drone Dataset :
+https://public.roboflow.com/object-detection/aerial-maritime/9
+
+1. click on "YOLO v5 PyTorch" button -> This is the Yolo format for Pytorch . txt file for every image
+
+2. choose zip file (for download)
+3. click "continue"
+
+4. Copy the content to a new folder in the new folder : For example under c:/Data-sets
+
+5. - Rename the folder to : "Aerial-Maritime" - to keep it short and simple 
+
+6. edit the data.yaml file and update the full path for the train and  val 
+
+8. Update the data.yaml for the full path for train and val , and keep this structure:
+
+------------------------------------------------------------------
+
+train: C:/Data-Sets/Aerial-Maritime/train/images
+val: C:/Data-Sets/Aerial-Maritime/valid/images
+
+nc: 5
+names: ['boat', 'car', 'dock', 'jetski', 'lift']
+
+------------------------------------------------------------------
+*. Folder structure:
+
+├── data.yaml
+├── README.dataset.txt
+├── README.roboflow.txt
+├── test
+│   ├── images
+│   └── labels
+├── train
+│   ├── images
+│   └── labels
+└── valid
+    ├── images
+    └── labels
+
+

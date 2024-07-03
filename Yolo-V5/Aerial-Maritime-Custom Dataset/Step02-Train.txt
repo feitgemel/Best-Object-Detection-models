@@ -1,0 +1,18 @@
+
+1. Goto the Yolo5 main folder 
+
+2. Start the train : 
+
+# --data -> update full path for the data.ymal file
+# --name -> update full path for the results
+# -- epochs -> 250 
+3. run this from c:/cool-Python-stuff/yolov5 
+
+# run it with the meduim model
+python train.py --data C:/Data-Sets/Aerial-Maritime/data.yaml --weights yolov5m.pt --img 640 --epochs 250 --batch-size 16 --name C:/Data-Sets/Aerial-Maritime/All-results
+
+4. look at the values of box_loss obj_loss -> is should be decreasing . Map sould go up -> this is the quality
+
+5. There are two result : Last.pt and best.pt . Best.pt is the best model
+
+6. After the train finish , look at the P (precision ) of each object -> you can see which class will be better in prediction

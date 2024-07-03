@@ -1,0 +1,11 @@
+
+
+1. run this command :
+
+--weights -> path to the best.pt 
+-- source -> our new images
+-- name -> store the output
+
+# run the inference
+python detect.py --weights C:\Data-Sets\Aerial-Maritime\All-results\weights\best.pt --source C:/Data-Sets/Aerial-Maritime/test/images/DJI_0262_JPG.rf.5f24b2ccccf544d3bb0c3cb740be0f4b.jpg  --name C:/Data-Sets/Aerial-Maritime/result
+ 
