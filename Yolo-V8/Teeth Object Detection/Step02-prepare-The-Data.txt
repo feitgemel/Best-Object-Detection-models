@@ -1,0 +1,11 @@
+
+Tooth - https://universe.roboflow.com/university-of-bristol-htbdh/front-view-3/dataset/1
+# copy the images and labels like this :
+
+data :
+        train 
+            images
+            labes    
+        valid
+            images
+            labes    
