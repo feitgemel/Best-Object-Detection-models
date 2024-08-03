@@ -1,0 +1,8 @@
+train: C:/Data-sets/Ships detection/training/images
+val : C:/Data-sets/Ships detection/test/images
+
+# classes names
+names:
+  0: 'boat'
+
+  

@@ -1,0 +1,4 @@
+1. Download ships Dataset : https://www.kaggle.com/datasets/tomluther/ships-in-google-earth
+
+2. rename the "JPEGImages" to "images" (lower case) in the "training" and in the "test" folder as well !!!
+
