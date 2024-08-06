@@ -1,0 +1,6 @@
+train: C:/Data-sets/Bone fracture detection/train/images
+val: C:/Data-sets/Bone fracture detection/valid/images
+
+# class names
+nc: 1
+names: ['Fracture']

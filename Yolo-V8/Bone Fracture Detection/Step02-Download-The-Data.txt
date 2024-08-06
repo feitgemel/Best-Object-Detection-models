@@ -1,0 +1,6 @@
+1. Download football Dataset : https://universe.roboflow.com/fracture-uofxm/bone-fracture-detection-ivsy6/dataset/1
+
+2. Download in Yolo V8 format
+
+# The data is 350x350
+
