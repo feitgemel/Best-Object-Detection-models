@@ -1,0 +1,6 @@
+train: C:/Data-sets/Horse-race/dataset/train/images
+val: C:/Data-sets/Horse-race/dataset/valid/images
+
+# class names
+nc: 4
+names: ["horse race" , "horse" , "horse in a race", "horse racing"]
