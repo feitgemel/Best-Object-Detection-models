@@ -1,0 +1,12 @@
+train : C:/Data-sets/Mac-Real/dataset/train/images
+val : C:/Data-sets/Mac-Real/dataset/valid/images
+
+#class names 
+
+nc: 4
+names :
+- Maccabi player
+- Real Madrid player
+- ball
+- referee
+
