@@ -1,0 +1,16 @@
+conda create -n RemoveBG python=3.11
+conda activate RemoveBG
+
+pip install opencv-python==4.10.0.84
+pip install mediapipe==0.10.14
+
+# Download the models :
+# put it in your favotite folder . 
+
+Download models :
+
+Model list :
+https://ai.google.dev/edge/mediapipe/solutions/vision/object_detector#models
+
+# Download the model :
+https://storage.googleapis.com/mediapipe-models/object_detector/efficientdet_lite0/int8/1/efficientdet_lite0.tflite
