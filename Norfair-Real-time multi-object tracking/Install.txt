@@ -1,0 +1,29 @@
+1. Create Conda enviroment :
+
+conda create -n norfair python=3.11
+conda activate norfair
+
+2. Install LIbraries 
+pip install opencv-python==4.10.0.84
+pip install norfair[metrics,video]==2.2.0
+
+3. Install Pytorch 
+
+# check Cuda version
+nvcc --version
+
+# Install Pytorch 2.5.0 with Cuda 12.4
+conda install pytorch==2.5.0 torchvision==0.20.0 torchaudio==2.5.0 pytorch-cuda=12.4 -c pytorch -c nvidia
+
+
+4.install YoloV8 
+pip install ultralytics==8.1.0
+
+5. More installations :
+pip install vidgear==0.3.4
+pip install yt_dlp==2026.3.3
+
+
+
+
+
