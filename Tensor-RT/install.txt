@@ -1,0 +1,45 @@
+# Install Cuda :
+# How tp check ? go to this folder : "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA"
+
+
+# Download tensorRT
+https://developer.nvidia.com/tensorrt
+
+# Instructions :
+https://docs.nvidia.com/deeplearning/tensorrt/install-guide/index.html
+
+1. "Download" + click on the last version . Tensor 10.x
+
+2. If you have Windows machine download the zip Files , according to your Cuda version
+
+3. Extract the zip file. It will create a folder with a name similar to :   
+"TensorRT-10.15.1.29.Windows.amd64.cuda-12.9"
+
+4. Copy all the dll files from zip file -> "lib" subfolder to your Cuda folder into the "bin" subfolder 
+"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8\lib"
+
+5. Crate a Conda enviroment : Python 3.12
+conda create -n TensorRT312 python=3.12
+conda activate TensorRT312
+
+6. Install Pytorch v2.9.1 with CUDA 12.8
+pip install torch==2.9.1 torchvision==0.24.1 torchaudio==2.9.1 --index-url https://download.pytorch.org/whl/cu128
+
+
+7. Go to the extract zip file folder "TensorRT-10.15.1.29.Windows.amd64.cuda-12.9" folder , and look for the Python(!!) folder.
+Look for a file that match python 3.12 versin : "tensorrt[........].whl"
+
+In the command prompt , after you create the Conda enviroment type :
+python.exe -m pip install [Filename.whl]
+
+You should get this message : "Successfully installed tensorrt-10.6.0"
+
+
+8. install Ultralitics
+pip install ultralytics==8.4.21
+pip install onnxruntime-gpu==1.24.3
+
+pip install onnx==1.20.1
+pip install onnxslim==0.1.87
+
+
