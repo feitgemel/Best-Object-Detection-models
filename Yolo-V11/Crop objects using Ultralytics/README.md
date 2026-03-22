@@ -22,7 +22,7 @@ Whether you are a researcher building a custom dataset or a developer looking to
 
 You can find the link for the [tutorial](https://youtu.be/PfLqDz45Fww) here. <br/>
 
-You can find more cool Object Detection projects and tutorials in this  [playlist](https://www.youtube.com/playlist?list=PLdkryDe59y4bXa-1wOEAF4KljIMamhWd0)
+You can find more cool Object Detection projects and tutorials in this  [playlist](https://www.youtube.com/playlist?list=PLdkryDe59y4YGPdz6bF3pcmFwhJWnawpg)
 
 
 Enjoy
