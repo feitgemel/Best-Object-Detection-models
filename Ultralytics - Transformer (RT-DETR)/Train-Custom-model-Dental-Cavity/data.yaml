@@ -1,0 +1,7 @@
+train: D:/Data-Sets-Object-Detection/Dental cavity/train/images
+val: D:/Data-Sets-Object-Detection/Dental cavity/valid/images
+test: D:/Data-Sets-Object-Detection/Dental cavity/test/images
+
+nc: 2 
+names: ['cavity','normal']
+

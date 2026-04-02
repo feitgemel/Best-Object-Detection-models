@@ -7,7 +7,7 @@ conda activate YoloV11-312
 nvcc --version
 
 3. Install Pytorch v2.9.1 with CUDA 12.8
-pip install torch==2.9``.1 torchvision==0.24.1 torchaudio==2.9.1 --index-url https://download.pytorch.org/whl/cu128
+pip install torch==2.9.1 torchvision==0.24.1 torchaudio==2.9.1 --index-url https://download.pytorch.org/whl/cu128
 
 4. install Ultralitics
 pip install ultralytics==8.4.21
