@@ -1,0 +1,26 @@
+
+- Create conda enviroment 
+conda create --name GroundedSam python=3.11
+conda activate GroundedSam
+
+nvcc --version
+
+# Cuda 12.8 -> Pytorch 2.9.1
+pip install torch==2.9.1 torchvision==0.24.1 torchaudio==2.9.1 --index-url https://download.pytorch.org/whl/cu128      
+
+# install YoloV11
+pip install ultralytics==8.3.50
+
+# install more libraries :
+pip install autodistill==0.1.29
+pip install autodistill-grounded-sam==0.1.0
+pip install autodistill-yolov11==0.1.4
+pip install scikit-learn==1.6.1
+pip install roboflow==1.1.50
+
+pip install Transformers==4.29.2
+
+pip install opencv-python==4.11.0.86
+
+
+
