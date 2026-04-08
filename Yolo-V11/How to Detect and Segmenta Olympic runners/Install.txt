@@ -1,0 +1,35 @@
+
+- Create conda enviroment 
+conda create --name Olympic python=3.11
+conda activate Olympic
+
+nvcc --version
+
+# Cuda 12.8 -> Pytorch 2.9.1
+pip install torch==2.9.1 torchvision==0.24.1 torchaudio==2.9.1 --index-url https://download.pytorch.org/whl/cu128      
+
+# install YoloV11
+pip install ultralytics==8.4.33
+
+
+# install Segmant Anything :
+pip install git+https://github.com/facebookresearch/segment-anything.git
+
+Download the "ViT-H SAM model" Model checkpoints from here :
+https://github.com/facebookresearch/segment-anything#model-checkpoints
+
+# install more libraries :
+pip install vidgear==0.3.4
+pip install yt-dlp==2026.3.17
+pip install autodistill==0.1.29
+pip install autodistill_grounding_dino==0.1.4
+pip install scikit-learn==1.6.1
+pip install roboflow==1.3.1
+
+pip install opencv-python==4.10.0.84
+pip install opencv-python-headless==4.10.0.84
+
+pip install transformers==4.29.2
+
+
+
