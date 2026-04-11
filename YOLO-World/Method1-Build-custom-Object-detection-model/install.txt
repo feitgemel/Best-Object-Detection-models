@@ -1,0 +1,20 @@
+
+- Create conda enviroment 
+conda create --name YoloV11-Torch291 python=3.11
+conda activate YoloV11-Torch291
+
+nvcc --version
+
+# Cuda 12.8 -> Pytorch 2.9.1
+pip install torch==2.9.1 torchvision==0.24.1 torchaudio==2.9.1 --index-url https://download.pytorch.org/whl/cu128      
+
+# install Libraries
+pip install ultralytics==8.4.33
+pip install opencv-python==4.10.0.84
+pip install supervision==0.27.0.post2
+pip install lapx==0.9.4
+pip install clip==0.2.0
+
+pip install git+https://github.com/openai/CLIP.git
+
+
