@@ -17,4 +17,3 @@ pip install clip==0.2.0
 
 pip install git+https://github.com/openai/CLIP.git
 
-

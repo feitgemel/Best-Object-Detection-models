@@ -45,6 +45,11 @@ finalImage1 = box_annotator.annotate(scene=image.copy(), detections=detections)
 # Draw the labels
 finalImage1 = label_annotator.annotate(scene=finalImage1, detections=detections, labels=labels)
 
+import cv2
+
+# Save using OpenCV
+cv2.imwrite("d:/temp/test_image.png", finalImage1)
+
 sv.plot_image(finalImage1, (10,10))
 
 

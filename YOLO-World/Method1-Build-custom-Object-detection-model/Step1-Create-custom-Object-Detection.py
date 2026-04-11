@@ -29,3 +29,4 @@ model2.save("d:/temp/models/my-yolov8s-world.pt")
 results2[0].show()
 
 
+
