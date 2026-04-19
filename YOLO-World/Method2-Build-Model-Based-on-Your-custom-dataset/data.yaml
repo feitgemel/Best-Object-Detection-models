@@ -1,0 +1,8 @@
+path: D:/Data-Sets-Object-Detection/trash_ICRA19/YOLO_dataset
+train: train/images
+val: val/images
+test: test/images
+
+nc: 3
+names: ['plastic', 'bio', 'rov']
+
