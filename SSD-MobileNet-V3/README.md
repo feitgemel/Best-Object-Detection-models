@@ -13,7 +13,8 @@ No prior experience needed! This tutorial is perfect for beginners who want to g
 
 <br/>
 
-You can find the link for the [tutorial](https://youtu.be/e-tfaEK9sFs) here. 
+You can find the link for the [tutorial](hhttps://eranfeit.net/ssd-mobilenet-v3-object-detection-explained-for-beginners/) here. <br/>
+You can find the link for the [full post](https://youtu.be/e-tfaEK9sFs) here. <br/>
 
 You can find more cool Object Detection projects and tutorials in this  [playlist](https://www.youtube.com/playlist?list=PLdkryDe59y4bXa-1wOEAF4KljIMamhWd0)
 
