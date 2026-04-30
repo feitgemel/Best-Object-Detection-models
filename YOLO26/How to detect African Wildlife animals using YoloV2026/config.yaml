@@ -1,0 +1,12 @@
+path : 'D:/Data-Sets-Object-Detection/african-wildlife'
+train: 'train/images'
+val: 'valid/images'
+test: 'test/images'
+
+# Classes 
+names:
+  0: Buffalo
+  1: Elephant
+  2: Rhino
+  3: Zebra
+
