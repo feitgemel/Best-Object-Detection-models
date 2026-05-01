@@ -18,7 +18,7 @@ print(names_dict)
 
 
 # Run the resuls list
-for result in results :
+for i, result in enumerate(results):
     boxes = result.boxes # Boxes object for bountding box outpus 
     masks = result.masks # Masks object for segmentation masks outputs
     keypoints = result.keypoints # Keypoints object for pose outputs
@@ -32,7 +32,13 @@ for result in results :
     class_names = [names_dict[class_id] for class_id in class_ids]
     print("Predicted class names:", class_names)
 
+    # Extract the result image 
+    annotated_frame = result.plot()
+    cv2.imwrite(f"Best-Object-Detection-models/YOLO26/How to detect African Wildlife animals using YoloV2026/output_image_{i}.jpg", annotated_frame)
+
     result.show() # Display the screen 
+
+
 
 
     
