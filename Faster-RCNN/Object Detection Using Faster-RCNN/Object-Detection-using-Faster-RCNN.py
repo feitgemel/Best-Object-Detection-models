@@ -1,5 +1,5 @@
 from torchvision.models.detection import fasterrcnn_resnet50_fpn, FasterRCNN_ResNet50_FPN_Weights
-
+import os 
 weights = FasterRCNN_ResNet50_FPN_Weights.DEFAULT
 object_detection_model = fasterrcnn_resnet50_fpn(weights=weights, progress=True) 
 
@@ -7,9 +7,14 @@ object_detection_model = fasterrcnn_resnet50_fpn(weights=weights, progress=True)
 object_detection_model.eval()
 
 
+# Define the base directory and original image name
+image_path = "Best-Object-Detection-models/Faster-RCNN/Object Detection Using Faster-RCNN/train.jpg"
+base_dir = os.path.dirname(image_path)
+
+
 # Display the image : 
 from PIL import Image
-test_img = Image.open("Best-Object-Detection-models/Faster-RCNN/Object Detection Using Faster-RCNN/train.jpg")
+test_img = Image.open(image_path)
 
 test_img.show() 
 
@@ -79,6 +84,10 @@ for box , label , score in zip(preds[0]['boxes'], preds[0]['labels'], preds[0]['
         plt.text(x1, y1, f'{label_name} {score.item():.2f}' , color='white', fontsize=8, bbox=dict(facecolor='red', alpha=0.5)) 
 
 plt.axis('off')
+# Save the Faster R-CNN result
+save_path_frcnn = os.path.join(base_dir, "train_faster_rcnn_output.jpg")
+plt.savefig(save_path_frcnn, bbox_inches='tight', pad_inches=0)
+print(f"Saved: {save_path_frcnn}")
 plt.show()
 
 # 2. Using SSD with Mobilenet backbone | Optimized for speed 
@@ -115,6 +124,10 @@ for box , label , score in zip(preds[0]['boxes'], preds[0]['labels'], preds[0]['
         plt.text(x1, y1, f'{label_name} {score.item():.2f}' , color='white', fontsize=8, bbox=dict(facecolor='red', alpha=0.5)) 
 
 plt.axis('off')
+# Save the SSD result
+save_path_ssd = os.path.join(base_dir, "train_ssdlite_output.jpg")
+plt.savefig(save_path_ssd, bbox_inches='tight', pad_inches=0)
+print(f"Saved: {save_path_ssd}")
 plt.show()
 
 
