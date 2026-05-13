@@ -13,7 +13,8 @@ Detectron2 is FacebookAI's framework for object detection, instance segmentation
 Detectron2 makes it convenient to run pre-trained models or train the models from scratch. 
 <br/>
 
-You can find the link for the [tutorial](https://youtu.be/VKiYGmkmQMY) here. 
+Here is a link for the full [blog](https://eranfeit.net/easy-detectron2-object-detection-tutorial-for-beginners/) here. <br/> 
+You can find the link for the [tutorial](https://youtu.be/VKiYGmkmQMY) here. <br/> 
 
 You can find more cool Object Detection projects and tutorials in this  [playlist](https://www.youtube.com/playlist?list=PLdkryDe59y4bXa-1wOEAF4KljIMamhWd0)
 
