@@ -164,5 +164,10 @@ for ax , img_name in zip(axes.flatten() , random_images):
     draw_boxes(ax, image, prediction, ground_truth)
 
 plt.tight_layout()
+# Save the resulting grid as a high-resolution PNG
+# 'bbox_inches=tight' removes unnecessary white margins for your blog
+plt.savefig('Best-Object-Detection-models/Faster-RCNN/Object Detection using Faster R-CNN on custom dataset with Pytorch/tomato_leaf_detection_results.png', bbox_inches='tight', dpi=300)
+
 plt.show()
+
 
