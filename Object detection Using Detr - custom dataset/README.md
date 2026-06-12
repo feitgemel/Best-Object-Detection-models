@@ -23,9 +23,10 @@ The code includes:
 
 <br/>
 
-You can find the link for the [tutorial](https://youtu.be/cDzoPHpqCm8) here. 
+You can find the link for the [tutorial](https://youtu.be/cDzoPHpqCm8) here. <br>
+You can find the link for a full detalied post [here](https://eranfeit.net/how-to-use-detr-for-smart-bone-fracture-detection/) . <br>
 
-You can find more cool Object Detection projects and tutorials in this  [playlist](https://www.youtube.com/playlist?list=PLdkryDe59y4bXa-1wOEAF4KljIMamhWd0)
+You can find more cool Object Detection projects and tutorials in this  [playlist](https://www.youtube.com/playlist?list=PLdkryDe59y4bXa-1wOEAF4KljIMamhWd0) <br>
 
 
 Enjoy
