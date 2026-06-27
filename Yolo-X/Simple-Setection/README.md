@@ -13,12 +13,13 @@ No coding needed for running this tutorial
 YOLOX is an anchor-free version of YOLO, with a simpler design but better performance!
 
 ☕️ Show your appreciation for this tutorial - Please Buy me a Coffee/Chai so I can create more free tutorials for you : https://ko-fi.com/eranfeit
-
 <br/>
 
-You can find the link for the [tutorial](https://youtu.be/GOpiP05f26k) here. 
+You can find the link for the [tutorial](https://youtu.be/GOpiP05f26k) here. </br>
+You can find the link for the [full post](https://eranfeit.net/getting-started-with-yolox-for-object-detection/) here.</br>
 
-You can find more cool Object Detection projects and tutorials in this  [playlist](https://www.youtube.com/playlist?list=PLdkryDe59y4bXa-1wOEAF4KljIMamhWd0)
+
+You can find more cool Object Detection projects and tutorials in this  [playlist](https://www.youtube.com/playlist?list=PLdkryDe59y4bXa-1wOEAF4KljIMamhWd0) </br>
 
 
 Enjoy
