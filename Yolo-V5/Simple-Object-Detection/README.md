@@ -15,7 +15,8 @@ You will also learn how to install YoloV5 , and how to extract the labels and th
 
 <br/>
 
-You can find the link for the [tutorial](https://youtu.be/f0lu5jNZLdg) here. 
+You can find the link for the [tutorial](https://youtu.be/f0lu5jNZLdg) here. <br/>
+Link for the full [post](https://eranfeit.net/object-detection-in-15-minutes-with-yolov5-python/) here. <br/>    
 
 You can find more cool Object Detection projects and tutorials in this  [playlist](https://www.youtube.com/playlist?list=PLdkryDe59y4bXa-1wOEAF4KljIMamhWd0)
 
