@@ -13,7 +13,8 @@ You will also learn how to install YoloV5 , Download a custom dataset , discover
 
 <br/>
 
-You can find the link for the [tutorial](https://youtu.be/nEIhzAX81JU) here. 
+You can find the link for the [tutorial](https://youtu.be/nEIhzAX81JU) here. <br/> 
+You can find a full post [here](https://eranfeit.net/how-to-train-yolov5-on-a-custom-dataset/) .<br/> 
 
 You can find more cool Object Detection projects and tutorials in this  [playlist](https://www.youtube.com/playlist?list=PLdkryDe59y4bXa-1wOEAF4KljIMamhWd0)
 
