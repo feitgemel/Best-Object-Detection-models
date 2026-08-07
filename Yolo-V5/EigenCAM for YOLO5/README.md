@@ -15,6 +15,7 @@ In this video, we delve into the world of computer vision and explore EigenCAM, 
 <br/>
 
 You can find the link for the [tutorial](https://youtu.be/pcgvcIJuKnI) here. 
+You can find a full post [here](https://eranfeit.net/how-to-use-eigencam-for-yolov5-object-detection/) .<br/> 
 
 You can find more cool Object Detection projects and tutorials in this  [playlist](https://www.youtube.com/playlist?list=PLdkryDe59y4bXa-1wOEAF4KljIMamhWd0)
 
