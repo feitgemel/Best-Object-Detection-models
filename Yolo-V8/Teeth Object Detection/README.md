@@ -19,6 +19,7 @@ How to make predictions and draw bounding boxes around detected teeth.
 
 <br/>
 
+Link for the full [post](https://eranfeit.net/how-to-build-yolov8-dental-object-detection-model/)  
 You can find the link for the [tutorial](https://youtu.be/mfv1ps-tHDk) here. 
 
 You can find more cool Object Detection projects and tutorials in this  [playlist](https://www.youtube.com/playlist?list=PLdkryDe59y4bXa-1wOEAF4KljIMamhWd0)
